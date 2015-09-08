@@ -5595,7 +5595,7 @@ meta.foundation-mq-topbar {
   width: 100%;
 }
 .top-bar-section ul li {
-  background: #333333;
+  background: #34495e;
 }
 .top-bar-section ul li > a {
   display: block;
@@ -7613,9 +7613,9 @@ form span.postfix {
   border: 2px solid #ecf0f1;
 }
 .accordion > .active {
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 10px rgba(26, 188, 156, 0.7);
+  -moz-box-shadow: 0 1px 10px rgba(26, 188, 156, 0.7);
+  box-shadow: 0 1px 10px rgba(26, 188, 156, 0.7);
   position: relative;
   background-color: rgba(255, 255, 255, 0.9);
 }

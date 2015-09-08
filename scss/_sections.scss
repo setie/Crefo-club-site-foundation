@@ -1,7 +1,7 @@
 .accordion{
   border:2px solid $clouds;
   >.active{
-  @include box-shadow(0 1px 10px rgba(black, 0.4));
+  @include box-shadow(0 1px 10px rgba($turquoise, 0.7));
       position: relative; // so box-shadow appears over other accordions
       background-color: rgba(white, 0.9);
     >a{

@@ -130,6 +130,8 @@
     list-style: none;
 
     text-align: center;
+    margin-left: 0;
+    
 }
 .slick-dots li
 {
