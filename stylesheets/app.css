@@ -7808,8 +7808,8 @@ form span.postfix {
   }
 }
 .content {
-  height: 100vh;
-  min-height: 100vh;
+  height: 50vh;
+  min-height: 95vh;
   /*for mozilla*/
 }
 
