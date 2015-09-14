@@ -4,6 +4,7 @@
    margin-right: auto;
    max-width: initial;
 }
+//thumbnails
 .transparent{ @include opacity(0); }
 
 .th-item{
@@ -20,3 +21,17 @@
     overflow: hidden;
     background-position: center;
 }}
+
+//full home page
+.content {
+  height:100vh;
+  min-height:100vh;/*for mozilla*/
+}
+
+html>body .content {
+  height:auto;
+}
+
+#one {
+  background: url(https://dl.dropboxusercontent.com/u/3400459/CodePen/Fullscreen-DIVs/dark-red.png) center center no-repeat scroll $turquoise;
+}

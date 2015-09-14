@@ -7807,6 +7807,20 @@ form span.postfix {
     background-position: center;
   }
 }
+.content {
+  height: 100vh;
+  min-height: 100vh;
+  /*for mozilla*/
+}
+
+html > body .content {
+  height: auto;
+}
+
+#one {
+  background: url(https://dl.dropboxusercontent.com/u/3400459/CodePen/Fullscreen-DIVs/dark-red.png) center center no-repeat scroll #1abc9c;
+}
+
 .top-bar-section li:not(.has-form) a:not(.button) {
   padding: 0 45px;
   line-height: 45px;
