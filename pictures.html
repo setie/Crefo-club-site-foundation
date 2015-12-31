@@ -20,44 +20,77 @@
 
 </head>
 <body>
-	<nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-  	<li class="name"><!-- Leave this empty --></li>
-  </li>
-  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-</ul>
+	<div class="sticky">
+    <div class="fixed">
+  <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+
+    <!-- Title Area 
+    <li class="name">
+      <h1>
+        <a href="#"><img src="img/CREFO_Logo_Black_Trans.png" width= "125" height="auto"/>
+        </a>
+      </h1>
+    </li>-->
+    <ul class="title-area">
+     <li class="name"><!-- Leave this empty --></li>
+   </li>
+   <li class="toggle-topbar menu-icon" ><a href="#"><span>Menu</span></a></li>
+ </ul>
+
+
+
+    <!--<a class="social-btn hide-for-large" id="social-btn" href="#twitter"  alt="twitter"><img src="http://placehold.it/22x18" width="22" height="18" /></a> 
+
+    <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>-->
+
 
     <section class="top-bar-section">
-    	<!-- Right Nav Section -->
-    	<ul>
-    		<li class="divider"></li>
-    		<li><a href="index.html">Home</a></li>
-    		<li class="divider"></li>
-    		<li><a href="aboutus.html">About us</a></li>
-    		<li class="divider"></li>
+      <!-- Right Nav Section -->
+      <ul>
+        <li class="divider"></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="divider"></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li class="divider"></li>
 
-    		<li class="name">
-    			<h1>
-    				<a href="#"><img src="img/CREFO_Logo_Black_Trans.png" width= "125" height="auto"/>
-    				</a>
-    			</h1>
-    		</li>
-    		<li class="divider"></li>
-    		<li><a href="pictures.html">Pictures</a></li>
-    		<li class="divider"></li>
-    		<li><a href="videos.html">Videos</a></li>
-    		<li class="divider"></li>
-    	</ul>
+        <li class="name">
+          <h1>
+            <a href="#"><img src="img/CREFO_Logo_Black_Trans.png" width= "125" height="auto"/>
+            </a>
+          </h1>
+        </li>
+        <li class="divider"></li>
+        <li><a href="pictures.html">Pictures</a></li>
+        <li class="divider"></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li class="divider"></li>
+      </ul>
+    <!--  <ul class="right">
+        <li><a href="https://twitter.com/Crefoatfiu/following"><img src="img/Twitter_logo_blue.png" width="50" height="18" /></a></li>
+        <li><a href="http://instagram.com/crefoclub"><img src="img/instagram-icon-32x32.png" width="50" height="18" /></a></li>
+        <li><a href="https://www.facebook.com/CreativePhotographyVideoFashionClub"><img src="img/facebook_icon.png" width="50" height="18" /></a></li>
 
-    </section>
-</nav>
-<body>
+        <li class="divider"></li>-->
+
+      </section>
+    </nav>
+</div>
+</div>
+
 
     <div class="row">
-    <div class="large-12 columns">
-      
+    <div class="large-12 columns" >
+      <div id='background'>
+        <div style="background-color: rgba(26,188,156,0.7);min-height:100%;width:100%;">
         <h2>Pictures! </h2>
         <p>A few of our favorite pictures though the year.</p>
+   
+   </div> 
+  </div>   
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">  
         <dl class="sub-nav">
           <dt>Filter:</dt>
   <dd><a href="#">Fall-2015</a></dd>
@@ -66,10 +99,10 @@
   <dd><a href="#">Spring-2014</a></dd>
   <dd><a href="#">Event Flyers</a></dd>
   <dd><a href="#">Misc</a></dd>
-  </dl>      
-    </div>
+  </dl>
+
+         </div>
   </div>
-  
 
       <div class="row">
     <div class="large-12 columns">  
@@ -169,18 +202,6 @@
     <script>
     $(document).foundation();
     </script>
-    <script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-19093680-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-    </script>
 </body>
 </html>

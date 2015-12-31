@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="stylesheets/normalize.css" />
 
 	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link rel="stylesheet" href="node_modules/motion-ui/dist/motion-ui.css" />
 
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
@@ -116,7 +117,7 @@
 				<a href="https://plus.google.com/u/0/117318329670236328622/posts" class="icon-button gplus">
 					<i class="fi-social-google-plus"></i><span></span>
 				</a>
-				<a href="http://instagram.com/crefoclub" class="icon-button gplus">
+				<a href="http://instagram.com/crefoclub" class="icon-button instagram">
 					<i class="fi-social-instagram"></i><span></span>
 				</a>
 			</div> 
@@ -124,6 +125,7 @@
 	</footer>
 
 	<script src="javascripts/vendor/jquery.js"></script>
+	<script src="node_modules/motion-ui/dist/motion-ui.js"></script>
 
 	<script src="javascripts/vendor/stickyfooter.js"></script>
 	<script src="javascripts/vendor/jquery.cookie.js"></script>
@@ -133,8 +135,9 @@
 
 	<script>
 	$(document).foundation();
+	MotionUI.animateIn('/CREFO_Logo_Black_Trans.png', 'fade-in');
 	</script>
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-19093680-2']);
@@ -146,6 +149,8 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 
-	</script>
+	  
+
+	</script>-->
 </body>
 </html>

@@ -33,5 +33,28 @@ html>body .content {
 }
 
 #one {
-  background: url(https://dl.dropboxusercontent.com/u/3400459/CodePen/Fullscreen-DIVs/dark-red.png) center center no-repeat scroll $turquoise;
+  background: $turquoise;
 }
+#back{
+  background: url(Crefo_Mascot_1.png) center center no-repeat scroll;
+}
+
+.fa-arrow-down {
+    display: inline-block;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    left:0;
+    right:0;
+}
+
+#background{
+padding-top: 3%;
+padding-bottom: 3%;
+  background:  url(crefo_header_image.jpg) no-repeat center;
+ background-size: cover;
+min-height: 250px;
+
+}
+
+
