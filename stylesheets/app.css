@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 meta.foundation-version {
   font-family: "/5.2.3/";
 }
@@ -4902,7 +4903,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #2c3e50;
+  color: #e3e9eb;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -4910,7 +4911,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #5d82a6;
+  color: #edf1f2;
   line-height: 0;
 }
 
@@ -4940,7 +4941,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #5d82a6;
+  color: #edf1f2;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -5069,20 +5070,20 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #4c6a89;
+  color: #eaeeef;
 }
 blockquote cite:before {
   content: "\2014 \0020";
 }
 blockquote cite a,
 blockquote cite a:visited {
-  color: #4c6a89;
+  color: #eaeeef;
 }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #5d82a6;
+  color: #edf1f2;
 }
 
 /* Microformats */
@@ -7809,7 +7810,7 @@ form span.postfix {
 }
 .content {
   height: 50vh;
-  min-height: 95vh;
+  min-height: 100vh;
   /*for mozilla*/
 }
 
@@ -7840,6 +7841,28 @@ html > body .content {
   background: url(crefo_header_image.jpg) no-repeat center;
   background-size: cover;
   min-height: 250px;
+  text-align: left;
+  margin-bottom: 2%;
+  color: #fff;
+}
+
+#header-videos {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background: url(video_header.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 250px;
+  text-align: left;
+  color: #fff;
+}
+
+.titlez {
+  background-color: #34495E;
+  color: #fff;
+}
+
+h3 {
+  font-family: "PT Sans";
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -7864,7 +7887,7 @@ footer {
   background-color: #34495e;
 }
 
-#videos {
+#videosss {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.65) 100%), url(crefo_header_image.jpg) no-repeat scroll;
   height: 450px;
   padding: 100px 20px 0;

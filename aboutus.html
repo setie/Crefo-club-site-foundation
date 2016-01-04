@@ -10,6 +10,7 @@
 
 
 	<link rel="stylesheet" href="stylesheets/normalize.css" />
+	<link rel="stylesheet" href="stylesheets/animate.css" />
 
 	<link rel="stylesheet" href="stylesheets/app.css" />
 	<link rel="stylesheet" href="node_modules/motion-ui/dist/motion-ui.css" />
@@ -75,7 +76,7 @@
 </nav>
 <body>
 <div class="row">
-	<div class="small-8 small-centered columns" >
+	<div class="small-8 small-centered columns wow zoomIn" >
 		<img src="img/CREFO_Logo_Black_Trans.png">
 	</div>
 	</div>
@@ -84,8 +85,8 @@
 		
 		</div>
 		<div class="small-10 large-4 columns">
-			<p >
-			<blockquote style="text-align:right">We take pictures of everything anything nothing is beyond our reach<cite>John Zoe</cite><blockquote>
+			<p>
+			<blockquote style="text-align:right; color:#34495e;">We take pictures of everything anything nothing is beyond our reach<cite style="color:#34495e;">John Zoe</cite><blockquote>
 			</p>
 
 			</div>
@@ -125,6 +126,7 @@
 	</footer>
 
 	<script src="javascripts/vendor/jquery.js"></script>
+	 <script src="javascripts/vendor/wow.min.js"></script>
 	<script src="node_modules/motion-ui/dist/motion-ui.js"></script>
 
 	<script src="javascripts/vendor/stickyfooter.js"></script>
@@ -135,7 +137,7 @@
 
 	<script>
 	$(document).foundation();
-	MotionUI.animateIn('/CREFO_Logo_Black_Trans.png', 'fade-in');
+	new WOW().init();
 	</script>
 	<!--<script type="text/javascript">
 
