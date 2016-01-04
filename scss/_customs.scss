@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
 .fullWidth {
    width: 100%;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
 }
+//thumbnails
 .transparent{ @include opacity(0); }
 
 .th-item{
@@ -20,3 +23,61 @@
     overflow: hidden;
     background-position: center;
 }}
+
+//full home page
+.content {
+  height:50vh;
+  min-height:100vh;/*for mozilla*/
+}
+
+html>body .content {
+  height:auto;
+}
+
+#one {
+  background: $turquoise;
+}
+#back{
+  background: url(Crefo_Mascot_1.png) center center no-repeat scroll;
+}
+
+.fa-arrow-down {
+    display: inline-block;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    left:0;
+    right:0;
+}
+
+#background{
+padding-top: 3%;
+padding-bottom: 3%;
+  background:  url(crefo_header_image.jpg) no-repeat center;
+ background-size: cover;
+min-height: 250px;
+text-align: left;
+margin-bottom: 2%;
+color:#fff;
+}
+
+
+#header-videos{
+padding-top: 3%;
+padding-bottom: 3%;
+  background:  url(video_header.jpg) no-repeat center;
+ background-size: cover;
+min-height: 250px;
+text-align: left;
+color:#fff;
+
+}
+
+.titlez{
+  background-color: #34495E;
+  color:#fff;
+}
+$font-family-sans-serif: "PT Sans";
+h3{
+  font-family: $font-family-sans-serif;
+}

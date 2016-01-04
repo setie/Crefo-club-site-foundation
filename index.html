@@ -8,12 +8,16 @@
 
   <link rel="shortcut icon" href="ms-icon-310x310.png" type="image/png"/>
 
+  <link rel="stylesheet" href="stylesheets/animate.css" />
 
   <link rel="stylesheet" href="stylesheets/normalize.css" />
 
   <link rel="stylesheet" href="stylesheets/app.css" />
+  <!-- motion ui-->
+  <link rel="stylesheet" href="node_modules/motion-ui/dist/motion-ui.css" />
 
   <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick-theme.css"/>
@@ -23,7 +27,9 @@
 
 </head>
 <body>
-  <nav class="top-bar" data-topbar role="navigation">
+  <div class="sticky">
+    <div class="fixed">
+  <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 
     <!-- Title Area 
     <li class="name">
@@ -35,7 +41,7 @@
     <ul class="title-area">
      <li class="name"><!-- Leave this empty --></li>
    </li>
-   <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+   <li class="toggle-topbar menu-icon" ><a href="#"><span>Menu</span></a></li>
  </ul>
 
 
@@ -75,18 +81,16 @@
 
       </section>
     </nav>
+</div>
+</div>
+<div class='content' id='one'>
+<div class= 'content wow rubberBand' id='back'>
 
-  <div class="row fullWidth">
-    <div class="your-class">
-      <div><img src="http://lorempixel.com/1000/1000/" alt="slide 1" /></div>
-      <div><img src="http://lorempixel.com/1000/500/" alt="slide 2" /> </div>
-      <div><img src="http://lorempixel.com/1000/500/" alt="slide 3" /></div>
-      <div><img src="http://lorempixel.com/1000/500/" alt="slide 1" /></div>
-      <div><img src="http://lorempixel.com/1000/800/" alt="slide 2" /> </div>
-      <div><img src="http://lorempixel.com/1000/1000/" alt="slide 3" /></div>
-      </div>
-      </div>
-    
+</div>
+  <a class="btn" href="#intro">
+  <i class="fa fa-arrow-down fa-3x"></i></a>
+</div>
+
 
 
 <!--
@@ -144,14 +148,14 @@ fgfg
       <hr>
       <div class="row" data-equalizer>
         <div class="medium-6 medium-4 small-6 columns">
-          <p data-equalizer-watch><a href="http://foundation.zurb.com/docs">Videos</a><br />Everything you need to know about using the framework.</p>
+          <p data-equalizer-watch><a href="#">Videos</a><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</p>
             <!-- <div class="large-6 medium-8 columns">
                   <img src="img/editing_icon.png" alt="Camera">
                 </div>-->
               </div>
 
               <div class="medium-6 medium-4 small-6 columns">
-                <p data-equalizer-watch><a href="http://github.com/zurb/foundation">Pictures</a><br />Latest code, issue reports, feature </p>
+                <p class="text-right"data-equalizer-watch><a href="#">Pictures</a><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
                <!-- <div class="large-6 medium-8 columns">
                   <img src="img/camera.png" alt="Camera">
                 </div>-->
@@ -160,8 +164,11 @@ fgfg
           </div>
         </div>
       </div>
+<div class="row">
+<section id="videos" style="width: 100%;">
 
-
+</section>
+  </div>
       <footer style="background-color:#F9900;">
         <div class="row fullWidth">        
           <div class="large-6 columns">
@@ -188,6 +195,8 @@ fgfg
       </footer>
 
       <script src="javascripts/vendor/jquery.js"></script>
+      <script src="javascripts/vendor/wow.min.js"></script>
+      <script src="node_modules/motion-ui/dist/motion-ui.js"></script>
       <script src="javascripts/vendor/stickyfooter.js"></script>
       <script src="javascripts/vendor/jquery.cookie.js"></script>
       <script src="bower_components/foundation/js/foundation.min.js"></script>
@@ -198,6 +207,7 @@ fgfg
 
     <script>
     $(document).foundation();
+    new WOW().init();
     </script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -223,6 +233,10 @@ dots: false,
    //$(document).foundation();
 
  });
+
+
+  MotionUI.animateIn('#back', 'fade-in');
+
       </script>
 
 
